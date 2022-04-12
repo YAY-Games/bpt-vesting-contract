@@ -11,7 +11,7 @@ contract BptVesting1SeedMock is BptVesting1Seed {
         bytes32 _mercleRoot,
         uint256 _tgeTimestamp,
         uint256 steps
-    ) public BptVesting1Seed(_token, _mercleRoot, _tgeTimestamp) {
+    ) BptVesting1Seed(_token, _mercleRoot, _tgeTimestamp) {
         categories[CategoryNames.SALE_CATEGORY] = CategoryType({
             totalSteps: steps,
             stepTime: 7 days,

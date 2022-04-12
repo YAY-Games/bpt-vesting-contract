@@ -11,12 +11,12 @@ contract BptVesting2StrategicMock is BptVesting2Strategic {
         bytes32 _mercleRoot,
         uint256 _tgeTimestamp,
         uint256 steps
-    ) public BptVesting2Strategic(_token, _mercleRoot, _tgeTimestamp) {
+    ) BptVesting2Strategic(_token, _mercleRoot, _tgeTimestamp) {
         categories[CategoryNames.SALE_CATEGORY] = CategoryType({
             totalSteps: steps,
             stepTime: 7 days,
             tgePercent: 80000,
-            stepStageDelay: 7,
+            stepStageDelay: 7 days,
             stepPercent: 11500
         });
     }

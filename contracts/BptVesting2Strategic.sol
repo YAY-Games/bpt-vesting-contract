@@ -22,7 +22,7 @@ contract BptVesting2Strategic is BptVesting {
             totalSteps: 80,
             stepTime: 7 days,
             tgePercent: 80000,
-            stepStageDelay: 7,
+            stepStageDelay: 7 days,
             stepPercent: 11500
         });
 

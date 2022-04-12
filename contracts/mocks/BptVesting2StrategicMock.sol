@@ -16,7 +16,7 @@ contract BptVesting2StrategicMock is BptVesting2Strategic {
             totalSteps: steps,
             stepTime: 7 days,
             tgePercent: 80000,
-            stepStageDelay: 0,
+            stepStageDelay: 7,
             stepPercent: 11500
         });
     }

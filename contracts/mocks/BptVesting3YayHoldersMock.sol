@@ -16,7 +16,7 @@ contract BptVesting3YayHoldersMock is BptVesting3YayHolders {
             totalSteps: steps,
             stepTime: 7 days,
             tgePercent: 100000,
-            stepStageDelay: 0,
+            stepStageDelay: 7 days,
             stepPercent: 15000
         });
     }

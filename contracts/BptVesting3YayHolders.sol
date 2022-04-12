@@ -22,7 +22,7 @@ contract BptVesting3YayHolders is BptVesting {
             totalSteps: 60,
             stepTime: 7 days,
             tgePercent: 100000,
-            stepStageDelay: 0,
+            stepStageDelay: 7 days,
             stepPercent: 15000
         });
 

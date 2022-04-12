@@ -1,0 +1,37 @@
+{
+  "name": "bpt-vesting-contract",
+  "scripts": {
+    "build": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "lint": "npx solhint contracts/**/*.sol"
+  },
+  "keywords": [],
+  "author": "YAY-Games",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.7",
+    "@nomiclabs/hardhat-truffle5": "^2.0.2",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@opengsn/contracts": "^2.2.6",
+    "@openzeppelin/contracts": "^4.4.2",
+    "@openzeppelin/contracts-upgradeable": "^4.4.2",
+    "@openzeppelin/hardhat-upgrades": "^1.12.0",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@typechain/hardhat": "^2.3.1",
+    "@typechain/truffle-v5": "^5.1.0",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.6.7",
+    "hardhat-gas-reporter": "^1.0.4",
+    "merkletreejs": "^0.2.31",
+    "solhint": "^3.3.7",
+    "solidity-coverage": "^0.7.17",
+    "ts-node": "^10.4.0",
+    "typechain": "^5.2.0",
+    "typescript": "^4.4.4",
+    "web3": "^1.6.0",
+    "keccak256": "^1.0.6"
+  }
+}

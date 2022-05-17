@@ -22,7 +22,7 @@ contract BptVesting1Seed is BptVesting {
             totalSteps: 93,
             stepTime: 7 days,
             tgePercent: 75000,
-            stepStageDelay: 120 days,
+            stepStageDelay: 7 days,
             stepPercent: 10000
         });
 

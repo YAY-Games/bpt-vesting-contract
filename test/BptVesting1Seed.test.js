@@ -247,7 +247,7 @@ contract('BptVesting1Seed', function (accounts) {
             this.token = await ERC20Mock.new("BPT token", "BPT", this.totalTokens);
     
             this.tgeTimestamp = (await web3.eth.getBlock('latest')).timestamp + 5;
-            this.stepStageTimestamp = this.tgeTimestamp + 120 * DAY;
+            this.stepStageTimestamp = this.tgeTimestamp + 7 * DAY;
             this.BptVesting1Seed = await BptVesting1SeedMock.new(
                 this.token.address,
                 this.merkleRoot,

@@ -16,7 +16,7 @@ contract BptVesting1SeedMock is BptVesting1Seed {
             totalSteps: steps,
             stepTime: 7 days,
             tgePercent: 75000,
-            stepStageDelay: 120 days,
+            stepStageDelay: 7 days,
             stepPercent: 10000
         });
     }
